@@ -12,17 +12,17 @@ class Controller_Helloworld
    
    function index()
    {
-   		var_dump('helloWorld/index');
+   		var_dump('miniMVC/helloWorld/index');
    }
 
-   // inicia o site
+   // miniMVC/helloworld/home
    function home()
    {
       $this->model 		= new Model_Helloworld();
       $data->user_info	= $this->model->user_info();
       $data->login 		= $this->model->login();
       
-      // carrega a view e manda os dados   -   
+      // carrega a view e manda os dados 
       $this->load->view('helloworld.php', $data);
    }
 }
