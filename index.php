@@ -1,4 +1,4 @@
-<?php defined('SYSPATH') or die('No direct script access.');
+<?php 
 ini_set('display_errors', 1);
 
 define('EXT', '.php');
