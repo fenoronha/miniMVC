@@ -12,7 +12,7 @@ class Model_Helloworld {
    public function login() 
    {
    		$login->email = 'fernando.noronha@ameris.com.br';
-   		$login->password = 'noronha51';
+   		$login->password = '1234';
    		
    		return $login;
    }
