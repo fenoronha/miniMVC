@@ -2,6 +2,6 @@
 class Controller_MiniMVC {
 	function index() 
 	{
-		var_dump('teste miniMVC');
+		var_dump('miniMVC/index');
 	}
 }
